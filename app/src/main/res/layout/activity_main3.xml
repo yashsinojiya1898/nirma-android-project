@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="165dp"
+            android:text="Mr Arvinf Kejriwal"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Party"
+
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="20dp"
+
+            app:srcCompat="@drawable/ak" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="178dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/imageView"
+            android:layout_marginLeft="165dp"
+            android:text="Aap"
+            />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logo"
+            android:layout_below="@+id/textView3"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="93dp"
+            android:layout_height="29dp"
+            android:layout_below="@+id/textView3"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/aap" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Criminal Case"
+            android:layout_below="@+id/textView5"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView5"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="20dp"
+            android:text="No"
+            />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Education"
+            />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="20dp"
+            android:text="IIT Kharagpur"
+            />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView8"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Area"
+            />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView8"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="20dp"
+            android:text="Area"
+            />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:layout_below="@+id/textView10"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView10"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="20dp"
+            android:text="Arvind Kejriwal is an Indian politician and a former bureaucrat who is the current and 7th Chief Minister of Delhi since February 2015. Arvind Kejriwal is a graduate of the Indian Institute of Technology Kharagpur, with mechanical engineering as his majors"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView13"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Prev"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView13"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="20dp"
+            android:text="Next" />
+    </RelativeLayout>
+</ScrollView>
