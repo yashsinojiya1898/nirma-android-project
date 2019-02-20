@@ -25,7 +25,6 @@ public class listItems extends AppCompatActivity {
         System.out.println("11111");
         list = findViewById(R.id.my_recycler_view);
         list.setLayoutManager(new LinearLayoutManager(this));
-        System.out.println(22222);
         list.setAdapter(new MyAdapter(names,images));
     }
 
